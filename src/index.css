@@ -1,0 +1,90 @@
+.custom-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  margin-top: 30px;
+  font-family: 'Segoe UI', sans-serif;
+}
+body{
+  background-color: #f3f9ff !important;
+}
+.mr-3{
+  margin-right: 3px;
+}
+table{
+  border-radius: 10px;
+    padding: 3px 4px;
+    padding-bottom: 0px;
+    width: 100%;
+}
+label{
+  font-size: 20px;
+}
+
+select{
+  padding: 4px 50px 4px 54px;
+    border: none;
+    background: #f2f1ee;
+}
+
+.table-bordered thead {
+    border-bottom: 1px solid #aaa;
+    background: linear-gradient(to right, #efefef, #d4d7a97a, #efefef) !important;
+    backdrop-filter: blur(5px);
+    height: 45px;
+}
+
+.custom-header {
+  font-size: 20px;
+  font-weight: 600;
+  color: #4b0082;
+  margin-bottom: 16px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 8px;
+}
+
+.custom-table-wrapper {
+  overflow-x: auto;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 800px;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.custom-table th {
+  background-color: #f3f3ff;
+  color: #333;
+  font-weight: 600;
+}
+
+.custom-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.custom-table tr:hover {
+  background-color: #f0f8ff;
+}
+
+.custom-download-btn {
+  background-color: #4b0082;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.custom-download-btn:hover {
+  background-color: #3a006b;
+}
